@@ -1,0 +1,89 @@
+body{
+    background-color: #0a0e2c;
+    margin: 0 0 0 0;
+}
+nav{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:#1D267D;
+    color: white;
+    font-family:'Cormorant Garamond', serif;
+}
+.left-nav{
+    padding-right: 375px;
+}
+.right-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.right-nav ul li{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 20px;
+}
+.right-nav ul li a{
+    text-decoration: none;
+    color: #D4ADFC;
+}
+.sec-1{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    color: white;
+    padding-top: 150px;
+    font-size: 2rem;
+}
+.col{
+    color:#D4ADFC ;
+}
+#sec-2,#projects{
+    color: white;
+    font-size: x-large;
+    margin-left: 40px;
+}
+#sec-2 ul li{
+    list-style:none;
+}
+#projects dl{
+    margin-left: 40px;
+}
+#footer{
+    margin: 0px 0px 0px 0px;
+    background-color:#ECF8F9;
+    display: flex;
+    justify-content:left;
+    height: 60px;
+}
+.h-div ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    list-style: none;
+    height: 25px;
+}
+.h-div ul li{
+    margin: 0 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rig ul li{
+    list-style: none;
+    margin: 0,24px;
+}
+.rig ul{
+    display: flex;
+    justify-content:space-around;
+    align-items: right;
+    margin-left: 600px;
+
+
+}
+hr{
+    color: white;
+    opacity: 0.5;
+}
